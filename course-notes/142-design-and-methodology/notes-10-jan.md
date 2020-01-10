@@ -55,4 +55,4 @@ public void wrap(Measurable m) {
 - declare object references as attributes
 - create objects in @Before
 - write test methods @Test, with assertions
-	- as in: `asserEquals(x, y) //fail if x does not equal y`
+	- as in: `assertEquals(x, y) //fail if x does not equal y`
