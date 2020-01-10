@@ -50,13 +50,9 @@ public void wrap(Measurable m) {
 - @After cleans up after a test
 
 ### testing for this course
-select new junit test case in eclipse
-
-use JUnit 4
-
-declare object references as attributes
-
-create objects in @Before
-
-write test methods @Test, with assertions
-	ex. `asserEquals(x, y) //fail if x does not equal y`
+- select new junit test case in eclipse
+- use JUnit 4
+- declare object references as attributes
+- create objects in @Before
+- write test methods @Test, with assertions
+	- as in: `asserEquals(x, y) //fail if x does not equal y`
