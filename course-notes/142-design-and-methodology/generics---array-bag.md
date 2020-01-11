@@ -67,7 +67,5 @@ Thinking of a 'full' array where an object is removed presents an interesting pr
  The array will apeare full even though it's not.
 
 ---
-Carrano, Frank M., and Timothy M. Henry. _Data Structures and Abstractions with Java._ 5th ed. Boston: Pearson Education, Inc., 2018.
-
----
+###### Carrano, Frank M., and Timothy M. Henry. _Data Structures and Abstractions with Java._ 5th ed. Boston: Pearson Education, Inc., 2018.
 11/01/2020
