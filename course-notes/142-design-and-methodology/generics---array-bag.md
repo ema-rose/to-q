@@ -47,9 +47,14 @@ Creating an ordered pair with `OrderedPair`:
 ```
 OrderedPair<String> desk = new OrderedPair<String>("brown", "long"); //the second <String> is optional, OrderedPair<> is excepted
 ```
-Now, the object `desk`, which contains the pair of objects `brown` and `long`, can be minipulated with the `OrderedPair` methods. For example, `desk.getFirst();` would return an output of "brown."   
-Because `desk` expects strings, you cannot assign it a pair of objects that are not strings. `desk = new OrderedPair<Integer>(1, 2);` would return an error.  
-However, because `OrderedPair` is a generic class, you can create a separate object with an ordered pair of integers -- similarly to how you created `desk`.   
+The second <String> is optional, OrderedPair<> is excepted.  
+
+Now the object `desk`, which contains the pair of objects `brown` and `long`, can be minipulated with the OrderedPair methods.
+ For example, `desk.getFirst();` would return an output of "brown."   
+Because `desk` expects strings, you cannot assign it a pair of objects that are not strings.
+ For example, `desk = new OrderedPair<Integer>(1, 2);` would return an error.   
+
+However, because `OrderedPair` is a generic class, a separate object with an ordered pair of integers can be created -- similar to the example with `desk` above.   
 
 _When using an array to implement a bag, it is said to be array based.
 The array can either be fixed, meaning the bag could become full.
@@ -63,6 +68,6 @@ Thinking of a 'full' array where an object is removed presents an interesting pr
  The array will apeare full even though it's not.
 
 ---
-Carrano, Frank M., and Timothy M. Henry. _Data Structures and Abstractions with Java._ 5th ed. Boston: Pearson Education, Inc., 2018.
-_Sections: Java Interlude 1 & Chapter 2_
+Carrano, Frank M., and Timothy M. Henry. _Data Structures and Abstractions with Java._ 5th ed. Boston: Pearson Education, Inc., 2018.   
+_Sections: Java Interlude 1 & Chapter 2_   
 11/01/2020
