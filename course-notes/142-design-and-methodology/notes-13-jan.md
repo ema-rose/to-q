@@ -1,5 +1,5 @@
 # short notes 13 jan 2020
-## _test cases_
+## _test cases and exceptions_
 
 ### test cases
 _When your test cases fail, one of two things is wrong:
@@ -38,7 +38,7 @@ Each method should have a separate test case;
 
 ### programming by contract
 - class descriptions can be viewed as a contract between the implementer and the user
-- if the user meets preconditions, the method will work as advertized
+- if the user meets preconditions, the method will work as advertised
 
 ### test-driven development
 - write stub code so that it compiles
@@ -52,6 +52,7 @@ Each method should have a separate test case;
   - what assumptions are made?
     - ex. if using a remove() function, assumes the bag isn't empty
     - implies the bag doesn't contain null   
+   
 The **try-catch** exception is helpful for this.   
 Another useful tool is the `fail();` test case.
  This, when used in a test case, tells the program that if everything above this point executes,
@@ -59,7 +60,7 @@ Another useful tool is the `fail();` test case.
  _Useful for testing behavior that shouldn't be possible._
 
 ### how to generate test cases
-- generate a list of tasks the program should preform
+- generate a list of tasks the program should perform
 - and/or ways in which it should function
 - then generate a test case for each of these assertions
   - think of the reverse test case, if needed
