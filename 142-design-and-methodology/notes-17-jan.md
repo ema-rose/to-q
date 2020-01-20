@@ -30,19 +30,19 @@ iv. for(i=0; i<vals.length; i++)
 	vals[i] = null;
 ```
 Answer:
-i. there are no method's on array's, so this won't work
-ii. we aren't clearing num, so adding to the new array would throw an error
-iii. yes - in the perspective of the bag, the array is cleared (though you are taking up memory)
+i. there are no methods on array's, so this won't work   
+ii. we aren't clearing num, so adding to the new array would throw an error   
+iii. yes - in the perspective of the bag, the array is cleared (though you are taking up memory)   
 iv. would work except i isn't declared as an int, will throw a syntax error   
 	(in addition, iv doesn't clear num like ii)
 
 ### incorporating **generics**
-- `T` is a **type variable** and thus, can be used to indicate a genertic type of the Bag contents
-- rather then signify that methods are taking a specific type of object, using `<T>` essentialy says:
+- `T` is a **type variable** and thus, can be used to indicate a generic type of the Bag contents
+- rather than signify that methods are taking a specific type of object, using `<T>` essentially says:
  of type whatever
-- allows for more versitile code
+- allows for more versatile code
 	- an intelligent design choice as it saves time and effort
-	- reduces the amount of 'copy code'
+	- reduces the amount of 'copy code'     
 ***QUESTION: can a condition be set within a generic method that will execute a statement only if T is of type String?
  Or will this throw an error because T is not yet known?***   
 _Remember:_ creating a generic array requires an @SuppressWarnings() -
@@ -55,10 +55,10 @@ Bug in Java?
 - like a bag, but values are ordered
 - will expand to fit as many values as needed
 	- in some ways more useful than arrays
-- size, clear, remove(T) remain the same 
+- size, clear, and remove(T) remain the same 
 - lists are meant to be in order
 	- thus, an item can't just be deleted by replacing the last value
-	- the value must be removed by shifting every other following value over one
+	- the value must be removed by shifting every other following value over one   
 _Lists must be in order according to the order in which they were added._
 
 ### throw
@@ -70,5 +70,5 @@ _concept check_
 - each node is an object
 - a linked list is an object with a head, that points to following values
 - the head points to the first node
-- then each object is stored in separete nodes, pointing at the next node
+- then each object is stored in separate nodes, pointing at the next node
 - an empty pointer indicates the end of the list
