@@ -2,22 +2,22 @@
 ## _minipulating linked lists_
 
 ### diagram
- head	    node 1
-`_``_` -->  `_``_`
+ head	    node 1    
+`_` `_` -->  `_` `_`   
 
 ### practice _contains() method_
 How do you write the contains() method -- takes `T s` and returns if node contains `s`?
 ```
 public boolean contains(T s) {
-	//returns if the list contains value s
+  //returns if the list contains value s
 	
-	Node curr = head;
-	while(curr != null) {
-		if(curr.value.equals(s))
-			return ture;
-		curr = curr.next;
-	}
-	return false;
+  Node curr = head;
+  while(curr != null) {
+    if(curr.value.equals(s))
+      return ture;
+      curr = curr.next;
+    }
+  return false;
 }
 ```
 
@@ -38,8 +38,8 @@ No. Everything after the first node has been dropped but the first node is there
 ```
 Node curr - head;
 while(curr != null) {
-	curr.value = null;
-	curr = curr.next;
+  curr.value = null;
+  curr = curr.next;
 }
 ```
 No, this empties each node, however, it leaves the nodes behind.
@@ -64,18 +64,18 @@ method remove(T)
    
 ```
 public boolean remove(T val) {
-	Node curr = head;
-	Node prev = null; //there isn't anything in Node before curr
-	while(curr != null) {
+  Node curr = head;
+  Node prev = null; //there isn't anything in Node before curr
+  while(curr != null) {
 		
-		if(curr.value.equals(val)) {	//if my current node has the thing I want to delete
-			//remove curr node
-			prev.next = cur.next; //we want the node following our prev to now point to the node following curr
-			return true;	
-		}
-		prev = curr; //these two lines together advance as a pair
-		curr = curr.next;
-	}
-	return false;
+    if(curr.value.equals(val)) {	//if my current node has the thing I want to delete
+      //remove curr node
+      prev.next = cur.next; //we want the node following our prev to now point to the node following curr
+      return true;	
+    }
+    prev = curr; //these two lines together advance as a pair
+    curr = curr.next;
+  }
+  return false;
 }
 ```
