@@ -2,7 +2,7 @@
 ## _minipulating linked lists_
 
 ### diagram
- head	    node 1    
+head --> node 1    
 `_` `_` -->  `_` `_`   
 
 ### practice _contains() method_
