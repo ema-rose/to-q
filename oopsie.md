@@ -1,6 +1,6 @@
-# the oopsie!
+# oopsie
 ## a collection of common errors and mistakes
-_The purpose of the oopsie is to provide a starting point for addressing issues by providing general stratigies one may utilize to solve them. It is by no means complete and_
+_The purpose of this document is to provide a starting point for addressing issues by providing general stratigies one may utilize to solve them._
 
 ### doing too much
 it may be that the statement is trying to do too much. hard coding in more than one constraint, or multiple constraints, increases the pobability that there will be an exception
@@ -22,4 +22,4 @@ you are asking a null value to do something
 it doesn't exist, it can't do anything
 
 ---
-08/01/2020
+28/01/2020
