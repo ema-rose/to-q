@@ -38,7 +38,7 @@ This is then used to generate another list, and the process is repeated:
 |Orig.|Pass 1|
 |---|---|
 |42|20|
-|1330|
+|13|30|
 |2|21|
 |20|42|
 |21|2|
