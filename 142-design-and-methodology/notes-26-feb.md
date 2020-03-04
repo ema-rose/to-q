@@ -25,10 +25,11 @@ void traverse(Node n) {
 }
 ```
 
-##### understanding preorder, inorder, and postorder
+#### understanding preorder, inorder, and postorder
 ![comparison of all orders](https://computersciencewiki.org/images/7/7c/Binary_tree_traversal.png)
     
 **how to traverse:**
+|Type|1||2||3|
 |---------------|---|---|---|---|---|
 |Preorder|root|->|left|->|right|
 |Inorder|left|->|root|->|right|
@@ -54,4 +55,4 @@ _operations..._
 ---
     
 _look into Huffman encoding?_
-![optional further reading](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
+[optional further reading](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
