@@ -21,6 +21,7 @@
 	- All keys in a node’s right subtree are greater than its key and all in the left subtree are less
     
 ![the anatomy of a search tree](https://www.chercher.tech/java-data-structures/images/trees-java-data-structures.png)
+    
 [example of a simple binary search tree](https://inginious.info.ucl.ac.be/course/LSINF1252/BST)
 
 ### implementing a bst
