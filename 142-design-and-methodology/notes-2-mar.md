@@ -4,6 +4,7 @@
 ### _concept check_
 Considering each of the following, what is the running times of enqueue and dequeue respectively?
     
+|||
 |---|----------|   
 |A. | O(1) and O(log n) |
 |B. | O(1) and O(n) |
@@ -88,7 +89,7 @@ _this will be on the exam_
 - count of val x goes into cell x
 - traverse the array, print num of copies of each val
     
-_Ex._    
+_Ex. 1_    
 Elements: 012212001    
     
 |Index:   |0|1|2|
