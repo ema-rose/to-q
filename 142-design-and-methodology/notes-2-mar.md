@@ -3,7 +3,7 @@
 
 ### _concept check_
 Considering each of the following, what is the running times of enqueue and dequeue respectively?
-|||
+    
 |---|----------|   
 |A. | O(1) and O(log n) |
 |B. | O(1) and O(n) |
@@ -88,7 +88,7 @@ _this will be on the exam_
 - count of val x goes into cell x
 - traverse the array, print num of copies of each val
     
-Ex.    
+_Ex._    
 Elements: 012212001    
     
 |Index:   |0|1|2|
@@ -99,7 +99,7 @@ The array stores a representation of the num of vals that were given.
  So the index of 0 in the array holds the val 3 to represent the 3 0's that were given.
  Likewise, index 1 and 2 also hold vals of 3.
     
-Ex. 2
+_Ex. 2_    
 Elements: 01112002111
     
 |Index:   |0|1|2|
