@@ -92,7 +92,7 @@ Ex.
 Elements: 012212001    
     
 |Index:   |0|1|2|
-|---|---|---|
+|---|---|---|---|
 |Array:   |3|3|3|
     
 The array stores a representation of the num of vals that were given.
@@ -103,5 +103,5 @@ Ex. 2
 Elements: 01112002111
     
 |Index:   |0|1|2|
-|---|---|---|
+|---|---|---|---|
 |Array:   |3|6|2|
