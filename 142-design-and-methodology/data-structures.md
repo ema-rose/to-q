@@ -12,8 +12,8 @@
     
 - heap, bst
 	- Priority Queue
-	- heap, bst
-    
+   
+     
 	- Iterator
     
 ---
