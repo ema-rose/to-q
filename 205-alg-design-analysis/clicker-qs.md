@@ -16,4 +16,11 @@
  2^3 = 8, 2^2 = 4, 2^1 = 2, 2^0 = 1,
  which all together = 15.
  Thus, we have a total of 15 nodes.     
-- 
+   
+###### 17 September 2020
+- A) 9. Each node must be balanced. This is
+ my first answer:   
+![1](./ref/answer1.png)     
+- The correct answer is 12.     
+    
+
