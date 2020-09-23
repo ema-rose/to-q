@@ -23,4 +23,10 @@
 ![1](./ref/answer1.png)     
 - The correct answer is 12.     
     
+###### 21 September 2020
+1. I choose C, however, A is the correct
+ answer. Because you're diving by 2 and solving recursively, both the right and left half
+ are approximately n/2. The plus 1 comes from the middle term. You don't need 2 in front because you're not recurring on both left and right -- only one.   
+2. I choose C, however the answer was none of the above. The only area it differed was the end. I choose plus n, however, the correct answer is plus 1.     
+    
 
