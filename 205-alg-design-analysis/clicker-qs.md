@@ -29,4 +29,13 @@
  are approximately n/2. The plus 1 comes from the middle term. You don't need 2 in front because you're not recurring on both left and right -- only one.   
 2. I choose C, however the answer was none of the above. The only area it differed was the end. I choose plus n, however, the correct answer is plus 1.     
     
-
+###### 24 September 2020
+1. I chose B, however the correct answer
+ is D) 0(nk) time.
+ This is because in the worst case:
+ everything added is the new smallest -- moving
+ everything down takes k time, and this must be done
+ for each element in the input.
+ Thus, k * n, or nk time.    
+    
+ 
